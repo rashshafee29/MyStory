@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical"
+    tools:context=".AddStoryActivity">
+
+    <EditText
+        android:id="@+id/storyTitle"
+        android:text="Enter Story Title"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/storyAbout"
+        android:text="About"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/storyText"
+        android:text="Enter story here"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnSave"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_red_light"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        android:text="Save"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
